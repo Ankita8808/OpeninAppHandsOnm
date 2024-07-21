@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-20T14:52:04Z" name="Default suite" finished-at="2024-07-20T14:52:26Z" duration-ms="21821">
+  <suite started-at="2024-07-21T16:40:32Z" name="Default suite" finished-at="2024-07-21T16:40:42Z" duration-ms="10481">
     <groups>
     </groups>
-    <test started-at="2024-07-20T14:52:04Z" name="Default test" finished-at="2024-07-20T14:52:26Z" duration-ms="21821">
+    <test started-at="2024-07-21T16:40:32Z" name="Default test" finished-at="2024-07-21T16:40:42Z" duration-ms="10481">
       <class name="packages.DashboardTest1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:packages.DashboardTest1@74bf1791]" started-at="2024-07-20T20:22:04Z" name="setUp" finished-at="2024-07-20T20:22:09Z" duration-ms="4901" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:packages.DashboardTest1@74bf1791]" started-at="2024-07-21T22:10:32Z" name="setUp" finished-at="2024-07-21T22:10:35Z" duration-ms="3724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Homepage()[pri:0, instance:packages.DashboardTest1@74bf1791]" started-at="2024-07-20T20:22:09Z" name="Homepage" finished-at="2024-07-20T20:22:09Z" duration-ms="24" status="FAIL">
+        <test-method signature="Homepage()[pri:0, instance:packages.DashboardTest1@74bf1791]" started-at="2024-07-21T22:10:35Z" name="Homepage" finished-at="2024-07-21T22:10:35Z" duration-ms="53" status="FAIL">
           <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
               <![CDATA[invalid argument
@@ -19,9 +19,9 @@
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [df331a08769e7f17c798b2d31aed1a39, get {url=//https://business.openinapp.com/dashboard}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Ankita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50762/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: df331a08769e7f17c798b2d31aed1a39]]>
+Command: [12fc1e60c7be508be27380e389628ec1, get {url=//https://business.openinapp.com/dashboard}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Ankita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54629/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12fc1e60c7be508be27380e389628ec1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
@@ -29,9 +29,9 @@ Session ID: df331a08769e7f17c798b2d31aed1a39]]>
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [df331a08769e7f17c798b2d31aed1a39, get {url=//https://business.openinapp.com/dashboard}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Ankita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50762/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: df331a08769e7f17c798b2d31aed1a39
+Command: [12fc1e60c7be508be27380e389628ec1, get {url=//https://business.openinapp.com/dashboard}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Ankita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54629/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12fc1e60c7be508be27380e389628ec1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -45,7 +45,7 @@ Session ID: df331a08769e7f17c798b2d31aed1a39
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at packages.DashboardTest1.Homepage(DashboardTest1.java:58)
+	at packages.DashboardTest1.Homepage(DashboardTest1.java:60)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,11 +77,11 @@ Session ID: df331a08769e7f17c798b2d31aed1a39
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Homepage -->
-        <test-method signature="testSignUp()[pri:0, instance:packages.DashboardTest1@74bf1791]" started-at="2024-07-20T20:22:09Z" name="testSignUp" finished-at="2024-07-20T20:22:26Z" duration-ms="16492" status="PASS">
+        <test-method signature="testSignUp()[pri:0, instance:packages.DashboardTest1@74bf1791]" started-at="2024-07-21T22:10:35Z" name="testSignUp" finished-at="2024-07-21T22:10:42Z" duration-ms="6320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:packages.DashboardTest1@74bf1791]" started-at="2024-07-20T20:22:26Z" name="tearDown" finished-at="2024-07-20T20:22:26Z" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:packages.DashboardTest1@74bf1791]" started-at="2024-07-21T22:10:42Z" name="tearDown" finished-at="2024-07-21T22:10:42Z" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

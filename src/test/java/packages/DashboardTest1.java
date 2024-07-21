@@ -48,6 +48,8 @@ public class DashboardTest1 {
 
         WebElement campaignsButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//p[normalize-space()='campaigns']")));
         campaignsButton.click();
+        
+        
 
         
     }
@@ -55,7 +57,7 @@ public class DashboardTest1 {
     @Test(enabled=true)
     public void Homepage() {
     	
-    	driver.get("//https://business.openinapp.com/dashboard");
+   
     	
         WebElement brandsButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//p[normalize-space()='brands']")));
         brandsButton.click();
